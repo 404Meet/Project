@@ -46,7 +46,7 @@ This repo uses `appsettings.json`, but you should override values via env vars.
 - `JWT__Issuer`
 - `JWT__Audience`
 - `JWT__SigningKey`
-- 
+
 ---
 
 #### macOS / Linux
@@ -109,28 +109,28 @@ This repo uses `appsettings.json`, but you should override values via env vars.
 ---
 
 ###
-6) API Endpoints 
-Stocks
--Base: /api/stock (Authorized)
--GET /api/stock
--GET /api/stock/{id}
--POST /api/stock
--PUT /api/stock/{id}
--PATCH /api/stock/{id}
--DELETE /api/stock/{id}
+6) API Endpoints:
+- Stocks
+- Base: /api/stock (Authorized)
+- GET /api/stock
+- GET /api/stock/{id}
+- POST /api/stock
+- PUT /api/stock/{id}
+- PATCH /api/stock/{id}
+- DELETE /api/stock/{id}
 
-Portfolio
--Base: /api/portfolio (Authorized)
--GET /api/portfolio → current user portfolio
--POST /api/portfolio?symbol=AAPL → add by symbol
--DELETE /api/portfolio?symbol=AAPL → remove by symbol
+- Portfolio
+- Base: /api/portfolio (Authorized)
+- GET /api/portfolio → current user portfolio
+- POST /api/portfolio?symbol=AAPL → add by symbol
+- DELETE /api/portfolio?symbol=AAPL → remove by symbol
 
-Comments
--Base: /api/comment (Authorized)
--GET /api/comment
--GET /api/comment/{id}
--POST /api/comment/{stockId}
--PUT /api/comment/{id}
--DELETE /api/comment/{id}
+- Comments
+- Base: /api/comment (Authorized)
+- GET /api/comment
+- GET /api/comment/{id}
+- POST /api/comment/{stockId}
+- PUT /api/comment/{id}
+- DELETE /api/comment/{id}
 
 ---
